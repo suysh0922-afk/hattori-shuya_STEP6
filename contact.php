@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>お問い合わせフォーム</h1>
+    </header>
+
+    <main>
+
+        <section class="content">
+
+            <h2>お問い合わせフォーム</h2>
+
+            <form id="contact-form" action="confirm.php" method="post">
+
+                <table>
+                    <tr>
+                        <th>お名前</th>
+                        <td>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                size="40">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>会社名</th>
+                        <td>
+                            <input
+                                type="text"
+                                id="companyName"
+                                name="companyName"
+                                size="40">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>メールアドレス</th>
+                        <td>
+                            <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                size="40">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>年齢</th>
+                        <td>
+                            <input
+                                type="text"
+                                id="age"
+                                name="age"
+                                size="40">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>お問い合わせ内容</th>
+                        <td>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                cols="40"></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                <button type="submit">送信</button>
+
+            </form>
+
+        </section>
+
+
+        <aside>
+
+            <ul>
+                <li><a href="#">トップページ</a></li>
+                <li><a href="#">人気投稿</a></li>
+                <li><a href="#">エンジニアおすすめ商品</a></li>
+                <li><a href="#">エンジニアおすすめ記事</a></li>
+                <li><a href="#">投稿ページ</a></li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+
+    <footer>
+
+        <button
+            type="button"
+            class="footer-color-button">
+            押してみてね！
+        </button>
+
+    </footer>
+
+
+    <script src="style.js"></script>
+
+</body>
+
+</html>
